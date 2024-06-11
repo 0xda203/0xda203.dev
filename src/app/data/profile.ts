@@ -6,6 +6,18 @@ export default {
   "avatarUrl": "icon.png",
   "position": "Fullstack Developer | PCD",
   "summary": "I craft web and mobile digital experiences",
+  "social": [
+    {
+      "name": "GitHub",
+      "icon": "github.png",
+      "url": "https://github.com/0xda203"
+    },
+    {
+      "name": "LinkedIn",
+      "icon": "linkedin.png",
+      "url": "https://www.linkedin.com/in/gabriel-rodrigues-0xda203/"
+    },
+  ],
   "about": [
     "I have over 4 years of experience as a Full Stack Web and Hybrid Mobile developer, overseeing the entire development process from conception to implementation. My expertise includes JavaScript, React, HTML, CSS, and Node.js, with a focus on building hybrid mobile applications using Ionic, Capacitor/Cordova, Angular, and React.",
     "I've designed and developed custom apps and extensions for various clients, including HTML5+ portlets, external actions, and apps for Jira and Confluence. Additionally, I have experience as an IT consultant, specializing in implementing, configuring and maintaining Atlassian Cloud products and OpenText's (former MicroFocus) on-premises and Cloud Octane and PPM (Project Portfolio Management)."

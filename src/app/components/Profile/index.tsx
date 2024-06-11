@@ -51,7 +51,14 @@ export default function Profile() {
                 </div>
               </div>
               <p className="mt-2 leading-normal text-slate-500 text-center lg:text-left">{data.summary}</p>
-              <nav className="nav hidden lg:block mt-8" aria-label="In-page jump links">
+              <div className='social mt-4 flex flex-row gap-2'>
+                {data.social.map((social, index) => (
+                  <a key={index} href={social.url} target="_blank" rel="noopener noreferrer" className="social-link" draggable="false">
+                    <img src={social.icon} alt={social.name} className="w-6 h-6" draggable="false" />
+                  </a>
+                ))}
+                </div>
+              <nav className="nav hidden lg:block mt-2" aria-label="In-page jump links">
                 <ul>
                   <li>
                     <button className={`group flex items-center py-2 ${activeSection === 'about' ? 'text-violet-500' : ''}`} onClick={() => handleNavClick('about')} draggable="false">
@@ -79,7 +86,9 @@ export default function Profile() {
                   </li>
                 </ul>
               </nav>
+              
             </div>
+            
           </header>
           <div className="pt-12 lg:w-1/2">
             <section id="about" className="scroll-mt-16 lg:scroll-mt-24" aria-label="About me">
