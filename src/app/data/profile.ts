@@ -88,6 +88,20 @@ export default {
   ],
   "projects": [
     {
+      "thumbnail": "icon.png",
+      "title": "0xda203.dev website",
+      "description": [
+        "Personal website developed using React, TypeScript, and TailwindCSS, with Next.js in inspiration from Brittany Chiang's website.",
+      ],
+      "tags": ["Javascript", "Typescript", "React", "TailwindCSS", "Vite", "Next.js", "Web Development"],
+      "links": [
+        {
+          "type": "github",
+          "url": "https://github.com/0xda203/0xda203.dev"
+        }
+      ]
+    },
+    {
       "thumbnail": "ckstudio.webp",
       "title": "CK Studio",
       "description": [
