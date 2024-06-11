@@ -1,0 +1,15 @@
+.blinking-cursor {
+    top: -2.67px;
+    display: inline-flex;
+    font-weight: 400;
+    color: #fff;
+    font-size: 48px;
+    position: relative;
+    animation: blinker 0.55s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}

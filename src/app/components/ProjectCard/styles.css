@@ -1,0 +1,14 @@
+/* General styles for experience-card */
+.experience-card {
+    opacity: 0.5;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    transition: opacity 0.5s;
+}
+
+/* Hover effect only for devices with a minimum width of 640px (sm breakpoint in Tailwind) */
+@media (min-width: 640px) {
+    .experience-card:hover {
+        opacity: 1;
+    }
+}

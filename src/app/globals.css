@@ -18,12 +18,12 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
+  /* background: linear-gradient(
       to bottom,
       transparent,
       rgb(var(--background-end-rgb))
     )
-    rgb(var(--background-start-rgb));
+    rgb(var(--background-start-rgb)); */
 }
 
 @layer utilities {
@@ -31,3 +31,13 @@ body {
     text-wrap: balance;
   }
 }
+
+.background-light {
+  background: radial-gradient(circle at 646px 992px, rgba(58, 120, 239, 0.1), transparent 90%);
+}
+
+/* hide scrollbar */
+::-webkit-scrollbar {
+  display: none;
+}
+

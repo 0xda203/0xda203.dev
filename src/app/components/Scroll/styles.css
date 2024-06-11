@@ -1,0 +1,31 @@
+.custom-scroll {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 8px;
+    height: 100%;
+    background-color: transparent;
+    transition: opacity 0.3s;
+    opacity: 0;
+    pointer-events: none;
+    display: none;
+}
+
+.custom-scroll.visible {
+    opacity: 1;
+}
+
+@media (min-width: 768px) {
+    .custom-scroll {
+        display: block;
+    }
+}
+
+.custom-scroll-thumb {
+    margin: 20px 0px;
+    position: absolute;
+    right: 4px;
+    width: 4px;
+    background-color: rgba(128, 128, 128, 0.7);
+    border-radius: 4px;
+}
